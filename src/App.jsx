@@ -5,7 +5,7 @@ import {
   Subscribe,
   SpecialOffer,
   SuperQuality,
-  PopularProduct,
+  PopularProducts,
   CustomerReviews,
 } from "./sections";
 import Nav from "./components/Nav";
@@ -17,7 +17,7 @@ const App = () => (
       <Hero />
     </section>
     <section className="padding">
-      <PopularProduct />
+      <PopularProducts />
     </section>
     <section className="padding">
       <SuperQuality />
